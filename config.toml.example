@@ -1,0 +1,13 @@
+title = "Donnybrook config file"
+
+[Bot]
+    Prefix = "."
+    ID = "your bot's ID"
+
+[Discord]
+    Token = "Bots Discord Token"
+    Owner = "Your Discord UserID"
+
+[Amazon]
+    KeyID = "Your AWS API KeyID"
+    KeySecret = "Your AWS KeySecret"
