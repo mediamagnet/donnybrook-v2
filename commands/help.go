@@ -21,7 +21,7 @@ func InitHelp() Help {
 		Name:        "help",
 		Description: "Shows help message",
 		Aliases:     []string{"h", "hh"},
-		Usage:       "help role",
+		Usage:       ".help setup",
 		Parameters: []Parameter{
 			{
 				Name:        "command",

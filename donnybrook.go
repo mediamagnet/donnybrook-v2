@@ -58,5 +58,19 @@ func main() {
 
 func init() {
 	atlas.Use(commands.InitHelp().Register())
+	atlas.Use(commands.InitTTS().Register())
+	atlas.Use(commands.InitCleanUp().Register())
+	// atlas.Use(commands.InitSetup().Register())
+	// atlas.Use(commands.InitJoin().Register())
+	// atlas.Use(commands.InitDone().Register())
+	// atlas.Use(commands.InitLeave().Register())
+	// atlas.Use(commands.InitReady().Register())
+	// atlas.Use(commands.InitUnready().Register())
+	// atlas.Use(commands.InitScatter().Register())
+	// atlas.Use(commands.InitHonk().Register())
+	// atlas.Use(commands.InitSwarm().Register())
+	// atlas.Use(commands.InitLick().Register())
+	// TODO: Figure out how to get youtube working again after update and add command
+	// atlas.Use(commands.InitYT().Register())
 
 }
